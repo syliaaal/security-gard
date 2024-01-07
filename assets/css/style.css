@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: pink;
+  text-align: left;
+  background-color: #ebd8d8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+
+[class^="flaticon-"]:before,
+[class*=" flaticon-"]:before,
+[class^="flaticon-"]:after,
+[class*=" flaticon-"]:after {
+  font-size: inherit;
+  margin-left: 0;
+}
+
+.container-fluid.nav-bar,
+.nav-bar.container-sm,
+.nav-bar.container-md,
+.nav-bar.container-lg,
+.nav-bar.container-xl {
+  position: absolute;
+  z-index: 9;
+}
+
+.carousel-caption {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+
+.text-orange {
+  color: #e45f4e;
+}
+
+h1 {
+  color: #e45f4e;
+}
+
+.bg-orange {
+  background-color: #e45f4e;
+}
+
+.custom-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.custom-form .input-group {
+  margin-bottom: 15px;
+}
+
+.custom-form .form-control-lg {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.custom-form .btn-dark {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #e45f4e;
+  border-color: #e45f4e;
+  color: #fff;
+}
+
+.custom-form .btn-dark {
+  background-color: black;
+  border-color: black;
+}
+
+.fa-circle-chevron-left {
+  color: #e45f4e;
+  background-color: white;
+  font-size: 40px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.fa-circle-chevron-right {
+  color: #e45f4e;
+  background-color: white;
+  font-size: 40px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.btn-orange {
+  background-color: #e45f4e !important;
+  border-color: #e45f4e !important;
+  color: #fff !important;
+}
+
+.carousel {
+  display: flex !important;
+
+}
+.no-shadow {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.back-to-top{
+  float: right;
+}
+
+
+h6 .card-title{
+  text-align: center !important;
+}
+
+.social-icons > a:last-child {
+  margin-right: 0; 
+}
+
+.message{
+  clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 34% 95%, 21% 100%, 22% 94%, 0 94%);
+}
+
+.bloc1{
+  background-color: black;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.horaire{
+  padding-left: 30px;
+  color: white;
+  text-align: left;
+  height: 10px;
+}
+.reseaux{
+  padding-right:40px ;
+  color:white;
+  text-align: right;
+}
+
+.text-white {
+  text-decoration: none;
+}
+
+
+
+@media (min-width: 992px) {
+  .feature .feature-item {
+    min-height: 300px !important;
+  }
+}
